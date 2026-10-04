@@ -9,7 +9,4 @@ const totalCoins = COIN_LEVEL_1 + COIN_LEVEL_2 + COIN_LEVEL_3;
 const averageCoins = totalCoins / 3;
 const remainingCoins = totalCoins % 3;
 
-console.log(
-  "Remaining coins after dividing total coins by average coins:",
-  remainingCoins,
-);
+console.log("Remaining coins after dividing total coins by 3:", remainingCoins);
