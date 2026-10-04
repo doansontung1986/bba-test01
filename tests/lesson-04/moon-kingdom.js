@@ -29,7 +29,7 @@ function printLeaderboard(players) {
       badge = "  ";
     }
     console.log(
-      badge + " " + `${i + 1}. ${player.name} - Score: ${player.score} pts`,
+      `${badge} ${i + 1}. ${player.name} - ${player.score.toLocaleString("en-US")} pts`,
     );
   }
 }
